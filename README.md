@@ -24,8 +24,9 @@ Moodle Docker requires
 
 ## Quick start
 - clone this repo  
-`git clone https://XXX`  
-`cd`
+`git clone https://github.com/LeandroBerlin/moodle-cli-toolkit`
+- change executing permissions  
+`cd moodle-cli-toolkit && chmod +x cli.sh`
 - run the setup script  
 `./cli.sh --setup`
 
