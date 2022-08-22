@@ -28,13 +28,13 @@ Moodle Docker requires
 - change executing permissions  
 `cd moodle-cli-toolkit && chmod +x cli.sh`
 - set local variable
-`
-export MOODLE_DOCKER_WWWROOT=$(pwd)/moodle/
+```export MOODLE_DOCKER_WWWROOT=$(pwd)/moodle/
 export MOODLE_DOCKER_WWWROOT=$(pwd)/moodle/
 export MOODLE_DOCKER_PATH=$(pwd)/moodle-docker/
 export MOODLE_DOCKER_DB=pgsql
 export MOODLE_DOCKER_PHP_VERSION=7.3
-`
+```
+- change the configuration in the cli.sh script (optional)
 - run the setup script  
 `./cli.sh --setup`
 
