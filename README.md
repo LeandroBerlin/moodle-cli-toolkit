@@ -49,4 +49,5 @@ options:
 --stop     Stop the development environment  
 --delete   Stop and delete the docker containers  
 --reset    Cleanup, remove docker and Moodle dirs  
+--dump     Create a dump of the database  
 --help     Print this help.
