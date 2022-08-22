@@ -44,10 +44,10 @@ export MOODLE_DOCKER_PHP_VERSION=7.3
 Syntax: cli.sh [--setup|--start|--stop|--delete|--reset|--dump|--help]     
 
 options:  
---setup    Setup and launch the development environment  
---start    Start the development environment  
---stop     Stop the development environment  
---delete   Stop and delete the docker containers  
---reset    Cleanup, remove docker and Moodle dirs  
---dump     Create a dump of the database  
---help     Print this help.
+**--setup**    Setup and launch the development environment  
+**--start**    Start the development environment  
+**--stop**     Stop the development environment  
+**--delete**   Stop and delete the docker containers  
+**--reset**    Cleanup, remove docker and Moodle dirs  
+**--dump**     Create a dump of the database  
+**--help**     Print this help.
