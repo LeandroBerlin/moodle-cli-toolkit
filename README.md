@@ -41,7 +41,7 @@ export MOODLE_DOCKER_PHP_VERSION=7.3
 
 ## Commands
 
-Syntax: cli.sh [--setup|--start|--stop|--delete|--reset|--help]     
+Syntax: cli.sh [--setup|--start|--stop|--delete|--reset|--dump|--help]     
 
 options:  
 --setup    Setup and launch the development environment  
